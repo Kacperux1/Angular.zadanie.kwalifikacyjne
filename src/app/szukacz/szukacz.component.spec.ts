@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import SzukaczComponent from './szukacz.component';
+import {SzukaczComponent} from './szukacz.component';
 
 describe('SzukaczComponent', () => {
   let component: SzukaczComponent;

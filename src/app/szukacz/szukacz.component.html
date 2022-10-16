@@ -1,1 +1,8 @@
-<p>szukacz works!</p>
+<form formGroup="szukker" class="form" (ngSubmit)="onSubmit()">
+  <input id="wyszukiwane" type="text" formControlName="wyszukiwane" mat-Autocomplete="auto">
+  <mat-autocomplete #auto="matAutocomplete" display-With="displayFn">
+      <mat-option *ngFor="let option of filteredOptions | async" value="option">
+      </mat-option>
+    </mat-autocomplete>
+  <button type="button" class="button" type="submit">Szukaj</button>    
+</form>

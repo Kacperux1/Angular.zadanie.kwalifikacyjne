@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormControlName, FormsModule, ReactiveFormsModule } from '@angular/forms'
 
+import { MatAutocompleteModule } from "@angular/material/autocomplete";
 import { SzukaczRoutingModule } from './szukacz-routing.module';
-import SzukaczComponent from './szukacz.component';
+import { SzukaczComponent } from './szukacz.component';
 
 
 @NgModule({
@@ -11,7 +13,8 @@ import SzukaczComponent from './szukacz.component';
   ],
   imports: [
     CommonModule,
-    SzukaczRoutingModule
+    SzukaczRoutingModule,
+    MatAutocompleteModule,
   ]
 })
-export class SzukaczModule { }
+export class SzukaczModule{ }
