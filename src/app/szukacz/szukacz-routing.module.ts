@@ -9,3 +9,5 @@ const routes: Routes = [{ path: '', component: SzukaczComponent }];
   exports: [RouterModule]
 })
 export class SzukaczRoutingModule { }
+
+

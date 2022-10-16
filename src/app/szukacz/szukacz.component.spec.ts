@@ -21,3 +21,5 @@ describe('SzukaczComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+

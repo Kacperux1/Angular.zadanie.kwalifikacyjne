@@ -7,7 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 export interface propozycja {
-  name: STRING;
+  name: String;
 }
 import fs from 'fs'
 var dataArray = (fs.readFileSync('data,json'), 'utf-8')
